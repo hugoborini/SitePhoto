@@ -1,3 +1,6 @@
+main {
+    scroll-behavior: smooth;
+}
 * {
     box-sizing: border-box;
   }
@@ -17,7 +20,11 @@
     }
 }
 
-.img{
-    width: 300px;
+.img img{
+    width: 20vw;
     height: auto;
+}
+
+article{
+    width: 80vw;
 }
